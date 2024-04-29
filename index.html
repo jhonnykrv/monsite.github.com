@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHIC & GLAM</title>
+    <link rel="stylesheet" href="ja.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>CHIC & GLAM</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Produits</a></li>
+                <li><a href="#">Panier</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="container">
+    <section class="product-list">
+        <div class="product">
+            <img src="images/a3.jpg" alt="Product 1">
+            <h2>Produit 1</h2>
+            <p>Description du produit 1.</p>
+            <p>Prix: 2000F</p>
+            <button onclick="addToCart(1)">Ajouter au Panier</button>
+        </div>
+        <div class="product">
+            <img src="images/a1.jpg" alt="Product 2">
+            <h2>Produit 2</h2>
+            <p>Description du produit 2.</p>
+            <p>Prix: 5000F</p>
+            <button onclick="addToCart(2)">Ajouter au Panier</button>
+        </div>
+        <div class="product">
+            <img src="images/a2.jpg" alt="Product 2">
+            <h2>Produit 3</h2>
+            <p>Description du produit 3.</p>
+            <p>Prix: 1000F</p>
+            <button onclick="addToCart(2)">Ajouter au Panier</button>
+        </div>
+        <div class="product">
+            <img src="images/a4.jpg" alt="Product 2">
+            <h2>Produit 4</h2>
+            <p>Description du produit 4.</p>
+            <p>Prix: 4000F</p>
+            <button onclick="addToCart(2)">Ajouter au Panier</button>
+        </div>
+        <div class="product">
+            <img src="images/a6.jpg" alt="Product 2">
+            <h2>Produit 5</h2>
+            <p>Description du produit 5.</p>
+            <p>Prix: 1500F</p>
+            <button onclick="addToCart(2)">Ajouter au Panier</button>
+        </div>
+        <div class="product">
+            <img src="images/a5.jpg" alt="Product 2">
+            <h2>Produit 6</h2>
+            <p>Description du produit 6.</p>
+            <p>Prix: 5000F</p>
+            <button onclick="addToCart(2)">Ajouter au Panier</button>
+        </div>
+        <!-- Tu peux Ajouter d'autres produits ici -->
+    </section>
+
+    <aside class="shopping-cart">
+        <h2>Panier</h2>
+        <ul id="cart-items">
+            <!-- Contenu du panier ajouté dynamiquement -->
+        </ul>
+        <button onclick="checkout()">Passer Commande</button>
+    </aside>
+</main>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 CHIC & GLAM. Tous droits réservés.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
